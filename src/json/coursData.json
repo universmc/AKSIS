@@ -1,0 +1,45 @@
+[       
+    {
+    "titre": "présentation générale",
+    "sousSections": [
+        {
+            "sousTitre": "cursus",
+            "contenu": "Présentation Du métier programmeur développeur intégrateur Web spécialisé en machine Learning intelligence artificielle."
+        },
+        {
+            "sousTitre": "curriculum vitae",
+            "contenuMarkdown": "src/md/intro.md"
+        },
+        {
+            "sousTitre": "Lettre de Motivation",
+            "contenuMarkdown": "src/md/LM.md"
+        }
+    ]
+    },
+    {
+        "titre": "about_mc",
+        "sousSections": [
+            {
+                "sousTitre": "port-folio",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "blog",
+                "contenuMarkdown": "md/cours-frontend-css.md"
+            }
+        ]
+    }, 
+    {
+        "titre": "Projet Création entreprise",
+        "sousSections": [
+            {
+                "sousTitre": "plate-forme dédiée à la machine Learning à l'intelligence artificielle",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Model économie circulaire gpt-wallet",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+    }
+]

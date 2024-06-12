@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV | Mickael Cauchon</title>
+<style>
+body {
+background-color: #f5f5f5;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+h1, h2, h3 {
+color: #f5a623;
+margin-bottom: 10px;
+}
+h1 {
+font-size: 2.5em;
+}
+h2 {
+font-size: 1.8em;
+}
+h3 {
+font-size: 1.4em;
+}
+p {
+margin-bottom: 15px;
+}
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #fff;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Mickael Cauchon</h1>
+<p>
+<a href="tel:06.13.76.39.76">06.13.76.39.76</a> | <a href="mailto:mickael.cauchon@orange.fr">mickael.cauchon@orange.fr</a>
+</p>
+<p>1 impasse de l'ancienne poterie, 14860 Bavent</p>
+<hr>
+<h2>Formation</h2>
+<p>
+Formation politique (1998-2007)<br>
+- Création d'un skate Park<br>
+- Maison des jeunes<br>
+- Planétarium<br>
+- Divers projets pour la mairie
+</p>
+<p>
+BP REA - Responsable d'entreprise agricole<br>
+(Diplômé en agriculture)
+</p>
+<p>
+En formation BTS intelligence artificielle et machine learning<br>
+(Reclassement en cours)
+</p>
+<hr>
+<h2>Expériences professionnelles</h2>
+<h3>Secteur agricole</h3>
+<p>
+Travail saisonnier pendant une dizaine d'années (2008-2018)<br>
+- Agriculture (pommes de terre, pommes, raisin, maraîchage)<br>
+- Hiver dans le tourisme, hôtellerie et restauration<br>
+- Intérim dans l'industrie et l'agroalimentaire
+</p>
+<h3>Animation</h3>
+<p>
+Animateur de colonie de vacances<br>
+Travail en maison des jeunes<br>
+Établissements scolaires (Institut Lemonnier)<br>
+Responsable de production horticole
+</p>
+<hr>
+<h2>Compétences</h2>
+<p>
+Langages de programmation : HTML, CSS, PHP, JavaScript, SASS, GROQ-SDK, Python, Keras, Tensorflow<br>
+Bases de données : SQL<br>
+Expérience de plus de 20 ans dans le secteur d'activité<br>
+Maîtrise du langage naturel, techniques d'apprentissage automatique, approches Physique et politique, communication sociale et assistance<br>
+Compétences en insertion professionnelle, information et conseil, aide à la décision et construction de plans d'actions, adaptation à différents publics, animation d'entretiens individuels et d'actions collectives
+</p>
+<hr>
+<h2>Projet professionnel</h2>
+<p>
+Modèle d'économie circulaire GPT-WALLET et plateforme de machine learning Univers-mc.cloud
+</p>
+</div>
+</body>
+</html>

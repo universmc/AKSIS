@@ -1,0 +1,134 @@
+/* style.css */
+html, body {
+  min-width: 100vh;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: auto;
+  min-width: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  display: flex;
+  min-width: 100%;
+  margin-left: 30px;
+  background-color: #ffffff;
+  color: rgba(78, 77, 76, 0.696);
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  margin: 20px;
+}
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.mainContenair {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+#sommaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+  background-color: #f98d0027;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.sommaire-link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px;
+  padding: 5px;
+  color: #333;
+  border-radius: 10px;
+  background-color: #eb8005bd;
+}
+.picker {
+background-color:#a6a4a265;
+color:orange;
+gap: 30px;
+border: none;
+}
+.menu {
+  color:black;
+}
+.modal-sheet .modal-dialog {
+  width: 380px;
+  transition: bottom .75s ease-in-out;
+}
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}
+
+
+.cours-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contenuCours {
+  width: 90%;
+  background-color: rgba(162, 160, 157, 0.406);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.markdown-contenu {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.section {
+  background-color: #ebeaea;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.markdown-contenu h1, .markdown-contenu h2, .markdown-contenu h3 {
+  color: #333;
+}
+
+.markdown-contenu p {
+  color: #666;
+}
+
+
+/* Ajoutez plus de styles ici selon vos besoins */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h2, h3 {
+  margin: 0 0 10px 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=style.css.map */
