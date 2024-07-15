@@ -1,0 +1,57 @@
+[       
+    {
+    "titre": "présentation des Modules Aksis",
+    "sousSections": [
+        {
+            "sousTitre": "Module 1",
+            "contenu": "Prés à l'emploi ?"
+        },
+        {
+            "sousTitre": "Module 2",
+            "contenu": "Se confronter au marché du travail"
+        },
+        {
+            "sousTitre": "Module 3",
+            "contenu": "Optimiser sa communication et son image personnelle."
+        },
+        {
+            "sousTitre": "Module 4",
+            "contenu": "Pousser la porte de l'entreprise."
+        },
+        {
+            "sousTitre": "Documentation",
+            "contenuMarkdown": "src/md/intro.md"
+        }
+    ]
+    },
+    {
+        "titre": "Ateliers à la carte",
+        "sousSections": [
+            {
+                "sousTitre": "Préparer son intégration dans l'entreprise",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "Négocier son salaire et/ou condition de travail",
+                "contenuMarkdown": "md/cours-frontend-css.md"
+            },
+            {
+                "sousTitre": "aide et mesures pour l'emploi",
+                "contenuMarkdown": "md/cours-frontend-css.md"
+            }
+        ]
+    }, 
+    {
+        "titre": "Booster",
+        "sousSections": [
+            {
+                "sousTitre": "S'imaginé Créateur",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Soft Skills",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+    }
+]

@@ -11,17 +11,11 @@
 <body>
     <header>
       <nav class="navbar">
-        <div class="aside-menu"><button class="btn picker" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">💫</button></div>
-        <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">✨</button></div>
-        <div class="10"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal10">🧘‍♂️</button></div>
-        <div class="2"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal2">📚</button></div>
-        <div class="3"><button type="button" class="btn btn-primary picker"><a href="./src/html/menu/machineLearning/index.php">🌌</a></button></div>
-        <div class="4"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal4">💬</button></div>
-        <div class="5"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal5">⚡️</button> </div>
-        <div class="6"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal6">💰</button> </div>
-        <div class="7"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">🌴</button></div>
-        <div class="8"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">📱</button></div>
-        <div class="9"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">🛰</button></div>
+        <div class="aside-menu"><button class="btn picker menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">💫 Menu</button></div>
+        <div class="10"><button type="button" class="btn btn-primary picker menu" data-bs-toggle="modal" data-bs-target="#exampleModal10">🧘‍♂️ Mickael</button></div>
+        <div class="10"><button type="button" class="btn btn-primary picker menu"><a href="module.html">💻 Module</a></button></div>
+        <div class="8"><button type="button" class="btn btn-primary picker menu" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">📚 Projet Entreprise</button></div>
+        <div class="2"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal2">📱 06 13 76 39 76</button></div>
         <!-- Modal 💫 -->
 
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -85,11 +79,36 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title10 fs-5" id="exampleModalLabel10">🧘‍♂️ Mand_fine</h1>
+                <h1 class="modal-title10 fs-5" id="exampleModalLabel10">🧘‍♂️ Cauchon Mickael</h1>
+                
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                ...
+                <h1>Mickaël Cauchon</h1>
+                <p>1 impasse de l'ancienne poterie, 14860 Bavent</p>
+                <p>Téléphone: 06.13.76.39.76</p>
+                <p><a href="mailto:mickael.cauchon@orange.fr">mickael.cauchon@orange.fr</a></p>
+               
+                <h2>Formation</h2>
+                <p>Formation politique, mairie (1998-2007)</p>
+                <p>BP REA - Responsable d'entreprise agricole</p>
+                <p>Expérience dans l'agriculture, le tourisme, l'hôtellerie, la restauration, l'industrie et l'animation</p>
+                <p>Formation en cours : BTS Intelligence Artificielle et Machine Learning</p>
+               
+                <h2>Compétences</h2>
+                <p>Langages de programmation : HTML, CSS, PHP, JavaScript, SASS, GROQ-SDK, Python, Keras, TensorFlow</p>
+                <p>Bases de données : SQL</p>
+               
+                <h2>Expérience professionnelle</h2>
+                <p>Plus de 20 ans d'expérience dans divers secteurs d'activité</p>
+                <p>Animation en tant qu'animateur de colonie de vacances et en maison des jeunes</p>
+                <p>Responsable de dessert de production horticole</p>
+                <p>Expérience en intérim dans l'industrie et l'agroalimentaire</p>
+                <p>Travail saisonnier dans l'agriculture et l'hôtellerie</p>
+               
+                <h2>Projet professionnel</h2>
+                <p>Modèle d'économie circulaire GPT-WALLET</p>
+                <p>Plate-forme de machine learning : <a href="https://univers-mc.cloud/">univers-mc.cloud</a></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -226,13 +245,11 @@
           <!-- slidbar -->
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">📚Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">📚AKSIS</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis exercitationem alias sit saepe temporibus, corrupti voluptas ea porro voluptates assumenda dolorum illo hic vel modi natus omnis reprehenderit blanditiis autem!
-              </div>
+              <div id="sommaire"></div>
               <div class="dropdown mt-3">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
                   Dropdown button
@@ -268,7 +285,6 @@
 </div>
     </header>
     <div class="mainContent">
-        <div id="sommaire"></div>
         <div id="contenuCours"></div>
       </div>
     <footer>cc by Pi, neoFS & Mike univers-mc</footer>
@@ -278,7 +294,7 @@
         console.log('Modifications enregistrées');
       }
       </script>
-    <script src="src/js/script.js"></script>
+    <script src="src/js/module.js"></script>
     <script src="src/js/modals.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>

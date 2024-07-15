@@ -1,0 +1,20 @@
+[       
+    {
+    "titre": "Module 2 Se confronter au marché du travail",
+    "sousSections": [
+        {
+            "sousTitre": "Module 1",
+            "contenu": "Prés à l'emploi ?"
+        }
+    ]
+    },
+    {
+        "titre": "Ateliers à la carte",
+        "sousSections": [
+            {
+                "sousTitre": "Préparer son intégration dans l'entreprise",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            }
+        ]
+    }
+]

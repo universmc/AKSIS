@@ -21,18 +21,18 @@ async function main() {
     
       {role: "system", content:"Phase 1: Initialisation de l'instance"},
       {role: "assistant", content:`"${instance}"`},
-      {role: "user", content: ` https://www.aksis.fr/ `},
+      {role: "user", content: ` https://www.aksis.fr/' `},
       {
         "role": "assistant",
         "content": "rédigez un plan de développement optimisé avec un modèle de gantt Pour la présentation de l'$instance et du concept gpt-wallet projet Économie Circulaire basée sur le CV Numérique Universel"
       },
       {
         "role": "user",
-        "content": "Motivation CV_info : Mr Cauchon Mickael 1 impasse de l'ancienne poterie 14860 phone:06.13.76.39.76 mail:mickael.cauchon@orange.fr Bavent donc j'ai une formation politique j'ai commencé à la mairie et en 1998 jusqu'à 2007 dans diverses projets comme la création d'un skate Park d'une maison des jeunes d'un planétarium j'étais amené à travailler dans plusieurs secteurs d'activité diplômé dans l'agriculture le BP RER responsable d'entreprise agricole donc j'ai travaillé au gré des saisons pendant une dizaine d'années de 2008 en campagne au gré des saisons l'été dans l'agriculture les pommes de terre et les pommes le raisin le maraîchage l'hiver dans le tourisme hôtellerie restauration j'ai aussi travaillé en intérim dans l'industrie diplômée de Cassès mais aussi conducteur de ligne dans la production industrielle et agroalimentaire j'ai travaillé dans l'animation en tant qu'animateur de colonie de vacances mais aussi en maison des jeunes qui travailler dans les établissement scolaire un institut Lemonnier responsable dessert de production horticole je suis actuellement en formation BTS intelligence artificielle machine Learning saisie d'un reclassement j'ai plus de 20 ans d'expérience dans ce secteur d'activité je maîtrise le langage de programmation HTML CSS PHP JavaScript SASS GROQ-SDK python keras tensorflow SQL À la racine de mon projet professionnel modèle d'économie circulaire GPT-WALLET et c'est une plate-forme de machine Learning univers-mc.cloud. "
+        "content": "CV_info : Mr Cauchon Mickael 1 impasse de l'ancienne poterie 14860 phone:06.13.76.39.76 mail:mickael.cauchon@orange.fr Bavent donc j'ai une formation politique j'ai commencé à la mairie et en 1998 jusqu'à 2007 dans diverses projets comme la création d'un skate Park d'une maison des jeunes d'un planétarium j'étais amené à travailler dans plusieurs secteurs d'activité diplômé dans l'agriculture le BP RER responsable d'entreprise agricole donc j'ai travaillé au gré des saisons pendant une dizaine d'années de 2008 en campagne au gré des saisons l'été dans l'agriculture les pommes de terre et les pommes le raisin le maraîchage l'hiver dans le tourisme hôtellerie restauration j'ai aussi travaillé en intérim dans l'industrie diplômée de Cassès mais aussi conducteur de ligne dans la production industrielle et agroalimentaire j'ai travaillé dans l'animation en tant qu'animateur de colonie de vacances mais aussi en maison des jeunes qui travailler dans les établissement scolaire un institut Lemonnier responsable dessert de production horticole je suis actuellement en formation BTS intelligence artificielle machine Learning saisie d'un reclassement j'ai plus de 20 ans d'expérience dans ce secteur d'activité je maîtrise le langage de programmation HTML CSS PHP JavaScript SASS GROQ-SDK python keras tensorflow SQL À la racine de mon projet professionnel modèle d'économie circulaire GPT-WALLET et c'est une plate-forme de machine Learning univers-mc.cloud. "
       },
       {
         "role": "user",
-        "content": "instruction à partir de ces éléments CV_info, Rédige Présentation technique du métier de développeur full stack chez Aksis Ta réponse devrait être rédigé au format Markdonw repectant les normes du Web sémantique W3C"
+        "content": "instruction à partir de ces éléments CV_info,une version complète au format HtML Le style du curriculum vitae devra être épuré sur un fond gris clairs et un thème orangé pour ma canditure chez Aksis Donc ta réponse devrait être rédigé au format HTML stylisé en CV repectant les normes du Web sémantique W3C"
       },
     
     ],
@@ -43,9 +43,9 @@ async function main() {
     stop: null,
     stream: false
 }).then((chatCompletion)=>{
-    const mdContent = chatCompletion.choices[0]?.message?.content;
-    const outputFilePath = "job-🤖_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
-    fs.writeFileSync(outputFilePath, mdContent);
+    const htmlContent = chatCompletion.choices[0]?.message?.content;
+    const outputFilePath = "CV-Aksis-🤖_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".html";
+    fs.writeFileSync(outputFilePath, htmlContent);
     console.log("Documentation du contructor généré et enregistré dans " + outputFilePath);
 });
 }
